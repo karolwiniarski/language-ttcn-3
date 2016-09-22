@@ -1,0 +1,17 @@
+{
+  "name": "language-ttcn-3",
+  "version": "0.1.0",
+  "description": "Ttcn-3 language support in Atom",
+  "engines": {
+    "atom": "*"
+  },
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/karolwiniarski/language-ttcn-3"
+  },
+  "bugs": {
+    "url": "https://github.com/karolwiniarski/language-ttcn-3/issues"
+  },
+  "license": "MIT"
+}
