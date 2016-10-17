@@ -1,23 +1,23 @@
 {
-    "name": "language-ttcn-3",
-    "version": "0.1.0",
-    "description": "TTCN-3 language support in Atom",
-    "engines": {
-        "atom": "*"
-    },
-    "keywords": [
-        "ttcn-3",
-        "ttcn3",
-        "language",
-        "grammar"
-    ],
-    "dependencies": {},
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/karolwiniarski/language-ttcn-3"
-    },
-    "bugs": {
-        "url": "https://github.com/karolwiniarski/language-ttcn-3/issues"
-    },
-    "license": "MIT"
+  "name": "language-ttcn-3",
+  "version": "0.1.1",
+  "description": "TTCN-3 language support in Atom",
+  "engines": {
+    "atom": "*"
+  },
+  "keywords": [
+    "ttcn-3",
+    "ttcn3",
+    "language",
+    "grammar"
+  ],
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/karolwiniarski/language-ttcn-3"
+  },
+  "bugs": {
+    "url": "https://github.com/karolwiniarski/language-ttcn-3/issues"
+  },
+  "license": "MIT"
 }
