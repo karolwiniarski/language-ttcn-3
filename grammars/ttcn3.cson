@@ -157,7 +157,7 @@ repository:
         captures:
           "1":
             name: "keyword.operator.ttcn3"
-        match: "\\s*\\b(if|else|for|while|do|repeat)\\b"
+        match: "\\s*\\b(if|ifdef|ifndef|else|for|while|do|repeat)\\b"
       }
       {
         captures:
