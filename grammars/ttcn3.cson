@@ -114,7 +114,7 @@ patterns: [
     include: "#builtin_keyword"
   }
   {
-    match: "(:=|->)"
+    match: "(:=|->|>|<|=)"
     name: "keyword.operator.ttcn3."
   }
   {
@@ -139,7 +139,7 @@ patterns: [
   }
   {
     comment: "numeric"
-    match: "\\b[\\d+|infinity|\\-infinity]+\\b"
+    match: "\\b(\\d+|infinity|\\-infinity)+\\b"
     name: "constant.numeric.ttcn3"
   }
   {
@@ -149,7 +149,7 @@ patterns: [
 ]
 repository:
   builtin_functions_name:
-    match: "(?x) \\b(int2char|int2unichar|int2bit|int2hex|int2oct|int2str|int2float|float2int| ichar2int|unichar2int|bit2int|bit2hex|bit2oct|bit2str|hex2int|hex2bit|hex2oct|hex2str| oct2int|oct2bit|oct2str|str2int|str2oct|lengthof|sizeof|ispresent|ischosen|regexp|substr|rnd)\\b"
+    match: "(?x) \\b(int2char|int2unichar|int2bit|int2hex|int2oct|int2str|int2float|float2int| ichar2int|unichar2int|bit2int|bit2hex|bit2oct|bit2str|hex2int|hex2bit|hex2oct|hex2str| oct2int|oct2bit|oct2str|str2int|str2oct|lengthof|sizeof|ispresent|ischosen|regexp|substr|rnd|isvalue)\\b"
     name: "support.function.ttcn3"
   builtin_keyword:
     patterns: [
@@ -157,7 +157,7 @@ repository:
         captures:
           "1":
             name: "keyword.operator.ttcn3"
-        match: "\\s*\\b(if|ifdef|ifndef|else|for|while|do|repeat)\\b"
+        match: "\\s*\\b(if|ifdef|ifndef|endif|else|for|while|do|repeat|case|select|case)\\b"
       }
       {
         captures:
