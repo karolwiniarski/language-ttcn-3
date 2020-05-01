@@ -139,7 +139,7 @@ patterns: [
   }
   {
     comment: "numeric"
-    match: "\\b(\\d+|infinity|\\-infinity)+\\b"
+    match: "\\b(\\d+|infinity|\\-infinity)\\b"
     name: "constant.numeric.ttcn3"
   }
   {
