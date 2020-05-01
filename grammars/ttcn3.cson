@@ -134,7 +134,7 @@ patterns: [
   }
   {
     comment: "string"
-    match: "\\\".*\\\""
+    match: "\\\".*?\\\""
     name: "string.quoted.double.ttcn3"
   }
   {
